@@ -1,0 +1,65 @@
+.btn.orange-btn{
+    background-color: var(--orange);
+}
+.btn-nin{
+    padding: 10px 50px;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.6rem;
+    background-color: var(--orange);
+    font-weight: bold;
+}
+.nin-icon-wrapper{
+    width: 140px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--light-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome1-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.welcome1-btn{
+    width: 270px;
+    padding: 8px 0px;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: white;
+    border:2px solid black;
+    margin-bottom: 20px;
+}
+.purple-shadow{
+    box-shadow: 5px 5px 2px var(--dark-purple);
+}
+.green-shadow{
+    box-shadow: 5px 5px 2px var(--dark-green);
+}
+.blue-shadow{
+    box-shadow: 5px 5px 2px var(--dark-blue);
+}
+.orange-shadow{
+    box-shadow: 5px 5px 2px var(--orange);
+}
+.hide{
+    display: block;
+    animation: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+ @keyframes move {
+    0% {
+        margin-top: 0%;
+    }
+    100% {
+        margin-top: -59%;
+    }
+} 
+.no-hide{
+    display: none;
+}

@@ -1,0 +1,63 @@
+.rules-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.rule {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+.rule-desc {
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  height: 60px;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.rule1 {
+  background: url("../images/Bk\ green\ 1.png");
+}
+.rule2 {
+  background: url("../images/Bk\ yellow\ 1.png");
+}
+.rule3 {
+  background: url("../images/Bk\ blue\ 1.png");
+}
+.rule .img-absolute {
+  position: absolute;
+}
+.img-absolute.orange {
+  width: 47px;
+  height: 47px;
+}
+.dog,
+.glasses {
+  width: 110px;
+  width: 110px;
+}
+.quad {
+  background: url("../images/quad.png");
+  width: 75px;
+  height: 30px;
+}
+.elipse {
+  background: url("../images/elipse.png") no-repeat;
+  height: 65px;
+  width: 110px;
+}
+.win-me {
+  right: 15px;
+  font-weight: bolder;
+  font-size: 14px;
+  top: 8px;
+}
